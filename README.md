@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🧠 AI NLP Toolkit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![AI Toolkit Banner](https://i.imgur.com/placeholder.jpg)
 
-## Available Scripts
+## ✨ Overview
 
-In the project directory, you can run:
+AI Toolkit is a sleek, modern React application that harnesses the power of Hugging Face's state-of-the-art AI models to perform various natural language processing tasks. With an elegant glass-morphism UI and smooth animations, this app provides an intuitive interface for text analysis.
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Text Summarization**: Condense long articles into concise summaries
+- **Named Entity Recognition (NER)**: Identify and classify entities in text
+- **Sentiment Analysis**: Determine the emotional tone of text
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Screenshots
 
-### `npm test`
+<div align="center">
+  <img src="/api/placeholder/800/450" alt="AI Toolkit Dashboard" width="800px" />
+  <p><em>The main dashboard with glass-morphism UI</em></p>
+  
+  <img src="/api/placeholder/800/450" alt="Summarization Demo" width="800px" />
+  <p><em>Summarization in action</em></p>
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies
 
-### `npm run build`
+- **React**: UI component library
+- **Material UI**: Styling and components
+- **Framer Motion**: Fluid animations
+- **Axios**: API requests
+- **Hugging Face API**: AI models
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ai-toolkit.git
+   cd ai-toolkit
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Environment Setup**
+   - Create a `.env` file in the root directory
+   - Add your Hugging Face API token:
+     ```
+     REACT_APP_HUGGING_FACE_TOKEN=your_hugging_face_token_here
+     ```
+   - You can get a token from [Hugging Face](https://huggingface.co/settings/tokens)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔒 Environment Variables
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project uses environment variables to securely store API keys:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Variable | Description |
+|----------|-------------|
+| `REACT_APP_HUGGING_FACE_TOKEN` | Your Hugging Face API token |
 
-## Learn More
+## 💡 Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Select a task from the sidebar (Summarization, NER, or Sentiment Analysis)
+2. Enter or paste your text into the input field
+3. Click "Submit"
+4. View your results in the output area
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ How It Works
 
-### Code Splitting
+### CORS Handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This application handles CORS issues by implementing proper error handling. In a production environment, you would need to set up a backend proxy server to handle API requests to Hugging Face.
 
-### Analyzing the Bundle Size
+### Models Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Summarization**: facebook/bart-large-cnn
+- **Named Entity Recognition**: dslim/bert-base-NER
+- **Sentiment Analysis**: distilbert-base-uncased-finetuned-sst-2-english
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Advanced Configuration
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🙏 Acknowledgements
 
-### `npm run build` fails to minify
+- [Hugging Face](https://huggingface.co/) for their amazing AI models
+- [Material UI](https://mui.com/) for the component library
+- [Framer Motion](https://www.framer.com/motion/) for the animation library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+<div align="center">
+  <p>Made with ❤️ by [Your Name]</p>
+  <p>⭐ Star this repository if you found it useful! ⭐</p>
+</div>
