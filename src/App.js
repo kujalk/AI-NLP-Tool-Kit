@@ -94,8 +94,6 @@ const App = () => {
     setError('');
   };
 
-  // Create a proxy server setup for the README
-  const proxyEndpoint = 'https://your-backend-proxy-url.com/huggingface-proxy';
   // In a real app, you would set up a backend proxy server to handle CORS
 
   const handleSubmit = async () => {
