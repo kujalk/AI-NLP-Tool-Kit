@@ -17,13 +17,13 @@ AI NLP Toolkit is a sleek, modern React application that harnesses the power of 
 <div align="center">
   
   <img src="./images/summarization.png" alt="Summarization Demo" width="800px" />
-  <p><em>Summarization in action</em></p>
+  <p><em>Summarization</em></p>
 
   <img src="./images/ner.png" alt="NER Demo" width="800px" />
   <p><em>Named Entity Recognition</em></p>
 
   <img src="./images/sentiment_analysis.png" alt="Sentimentn Demo" width="800px" />
-  <p><em>Summarization in action</em></p>
+  <p><em>Sentiment Analysis</em></p>
 </div>
 
 ## 🛠️ Technologies
