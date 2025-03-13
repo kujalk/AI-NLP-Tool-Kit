@@ -1,10 +1,10 @@
 # 🧠 AI NLP Toolkit
 
-![AI Toolkit Banner](https://i.imgur.com/placeholder.jpg)
+![AI Toolkit Banner](./images/home.png)
 
 ## ✨ Overview
 
-AI Toolkit is a sleek, modern React application that harnesses the power of Hugging Face's state-of-the-art AI models to perform various natural language processing tasks. With an elegant glass-morphism UI and smooth animations, this app provides an intuitive interface for text analysis.
+AI NLP Toolkit is a sleek, modern React application that harnesses the power of Hugging Face's state-of-the-art AI models to perform various natural language processing tasks. With an elegant glass-morphism UI and smooth animations, this app provides an intuitive interface for text analysis.
 
 ## 🚀 Features
 
@@ -15,10 +15,14 @@ AI Toolkit is a sleek, modern React application that harnesses the power of Hugg
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="/api/placeholder/800/450" alt="AI Toolkit Dashboard" width="800px" />
-  <p><em>The main dashboard with glass-morphism UI</em></p>
   
-  <img src="/api/placeholder/800/450" alt="Summarization Demo" width="800px" />
+  <img src="./images/summarization.png" alt="Summarization Demo" width="800px" />
+  <p><em>Summarization in action</em></p>
+
+  <img src="./images/ner.png" alt="NER Demo" width="800px" />
+  <p><em>Named Entity Recognition</em></p>
+
+  <img src="./images/sentiment_analysis.png" alt="Sentimentn Demo" width="800px" />
   <p><em>Summarization in action</em></p>
 </div>
 
@@ -26,8 +30,6 @@ AI Toolkit is a sleek, modern React application that harnesses the power of Hugg
 
 - **React**: UI component library
 - **Material UI**: Styling and components
-- **Framer Motion**: Fluid animations
-- **Axios**: API requests
 - **Hugging Face API**: AI models
 
 ## 🔧 Installation
@@ -71,17 +73,21 @@ This project uses environment variables to securely store API keys:
 3. Click "Submit"
 4. View your results in the output area
 
-## ⚙️ How It Works
-
-### CORS Handling
-
-This application handles CORS issues by implementing proper error handling. In a production environment, you would need to set up a backend proxy server to handle API requests to Hugging Face.
-
-### Models Used
+## ⚙️ Models Used
 
 - **Summarization**: facebook/bart-large-cnn
 - **Named Entity Recognition**: dslim/bert-base-NER
 - **Sentiment Analysis**: distilbert-base-uncased-finetuned-sst-2-english
+
+
+## 🚀 Deployment in Netlify
+
+1. Connect your Gitrepo from Netlify
+2. Insert correct build params
+![Build Params](./images/build.png)
+3. Create the env
+![Environment Vars](./images/env.png)
+4. Deploy the app
 
 ## 🤝 Contributing
 
@@ -99,13 +105,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgements
 
-- [Hugging Face](https://huggingface.co/) for their amazing AI models
+- [Hugging Face](https://huggingface.co/) for their AI models
 - [Material UI](https://mui.com/) for the component library
-- [Framer Motion](https://www.framer.com/motion/) for the animation library
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ by [Your Name]</p>
+  <p>Made with ❤️ by K.Janarthanan</p>
   <p>⭐ Star this repository if you found it useful! ⭐</p>
 </div>
